@@ -1,0 +1,12 @@
+@import url(reset.css);
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-color: white;
+    color: black;
+}
