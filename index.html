@@ -45,18 +45,39 @@
             </tbody>
         </table>
     </section>
+    <section>
+        <form action="">
+            <label for="form-nome">Nome Completo</label>
+            <textarea rows="4" cols="5" type="text" id="form-nome"></textarea>
+
+            <label for="form-email">Email</label>
+            <input type="email" id="form-email">
+
+        <label for="curso"></label>
+        <select name="curso" id="curso">
+            <option value="html-css">Html e Css</option>
+            <option value="js">JavaScript</option>
+            <option value="bd">Banco de Dados</option>
+        </select>
+    </section>
     <section class="form">
-        <div class="select-curso">
-            <p>Selecione seu Curso:
-                <button class="dropdown" onclick="clicar()">
-                    curso ⏷
-                    <ul class="dropdownUl">
-                        <li class="dropdownLi"><a href="HTMLeCSS.html">HTML e CSS</a></li>
-                        <li class="dropdownLi"><a href="#">JavaScript</a></li>
-                        <li class="dropdownLi"><a href="#">Banco de Dados</a></li>
-                    </ul>
-                </button>
-            </p>
+        <div>
+                <p>Área de Interesse</p>
+                <label for="form-html">HTML e CSS</label>
+                <input type="radio" id="form-html">
+
+                <label for="form-js">JavaScript</label>
+                <input type="radio" id="form-js">
+
+                <label for="form-bd">Banco de Dados</label>
+                <input type="radio" id="form-bd">
+
+                <label for="form-ia">Inteligência Artificial</label>
+                <input type="radio" id="form-ia">
+            </form>
+        </div>
+        <div>
+            <button type="submit">Realizar Inscrição<button>
         </div>
     </section>
 </body>
